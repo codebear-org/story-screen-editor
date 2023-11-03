@@ -1,0 +1,83 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#app {
+  height: 100%;
+}
+
+.bear-story {
+  height: 100%;
+  overflow: hidden;
+}
+
+.bear-story-header {
+  height: 60px;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.bear-story-content {
+  display: flex;
+  height: calc(100% - 60px);
+  background: #f1f1f1;
+  position: relative;
+}
+
+.bear-story-config {
+  width: 500px;
+  border-right: 1px solid #ccc;
+  background: #fff;
+}
+
+.bear-story-editor {
+  width: 480px;
+  padding: 20px 30px;
+  overflow: hidden;
+
+  .bear-story-editor-body {
+    background: #fff;
+    height: 100%;
+    border-radius: 4px;
+  }
+}
+
+.bear-story-arrow {
+  position: absolute;
+  top: 50%;
+  right: 360px;
+  background: #fff;
+  border-radius: 8px;
+  width: 40px;
+  height: 30px;
+  z-index: 9;
+  cursor: pointer;
+  font-size: 12px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.bear-story-view {
+  width: 480px;
+  padding: 20px 30px;
+  overflow: hidden;
+
+  .bear-story-view-body {
+    background: #fff;
+    height: 100%;
+    border-radius: 4px;
+  }
+}
